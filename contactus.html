@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html"> Index</a>
+        <a href="tournament.html">Tournament</a>
+        <a href="contactus.html">Contact Us</a>
+            </header>
+
+<form action="formPost.html" method="get">
+<div class="formfield">
+<label for="phone">Cell:</label>
+<input type="tel" name="phone" id="phone" />
+</div>
+<div>
+    <textarea>
+    </textarea>
+    </div>
+
+<fieldset>
+    <legend> Status: </legend>
+    <div>
+       <input type="radio" name="status" id="Draft" value="Peachy"/>
+       <label for="Peachy">Peachy</label>
+    
+       <input type="radio" name="status" id="Dogma" value="Dogma">
+       <label for="Dogma">Dogma</label>
+    </div>
+ </fieldset>
+
+ <div>
+    <label for="email">Email address:</label>
+    <input type="email" id="email" name="email" required />
+    </div>
+
+    <div>
+        <input type="range" id="range" min="0" max="50">
+    </div>
+
+    <div>
+        <input type="text" id="text">
+    </div>
+            
+<div class="formfield">
+    <label for="reason">Reason</label>
+    <select name="reason" id="reason">
+<option value="Grade Question">Grade Question</option>
+<option value="Attendance Question">Attendance Question</option>
+</select>
+</div>
+ <div class="formfield">
+    <input type="submit" value="Send">
+ </div>
+</form>
+
+
+
+
+
+    
+            <footer>
+                <p>
+                    Copyright Peachy Dogma
+                    <a href="contactus.html">Contact Us</a>
+                    <a href="#top">Go to top</a>
+                    <a href="masInfo.html">MAS Information</a>
+                 </p>
+            </footer>  
+</body>
+</html>
